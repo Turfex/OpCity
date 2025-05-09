@@ -1,0 +1,12 @@
+name: OpCity
+version: '${project.version}'
+main: de.pixeltyles.opcity.OpCity
+api-version: '1.21'
+
+commands:
+  afk:
+    description: Teleportiere dich in den AFK-Bereich
+    usage: /afk
+  spawn:
+    description: Teleportiere dich zum Spawnpunkt
+    usage: /spawn
